@@ -1,88 +1,229 @@
-# 🔧 Alok Kumar Sahu's Portfolio
+# Hi, I'm Alok Kumar Sahu 👋
 
-Welcome to my GitHub profile! I’m a passionate software developer skilled in **Java**, **Vanilla JavaScript**, **SQL**, and frameworks like **React** and **Spring Boot**. I also have hands-on experience with **Git** for version control and collaboration.
+### Java Backend Developer | Spring Boot | Microservices | Full-Stack Development
 
----
+I'm a software developer passionate about building secure, scalable, and maintainable applications using **Java, Spring Boot, REST APIs, PostgreSQL, and React**.
 
-## 🚀 Projects
+My primary focus is backend development, especially microservices architecture, API security, database design, and application performance.
 
-### 1. **E-Commerce Platform**
-An end-to-end e-commerce application that enables users to browse products, add items to their cart, and place orders. This project demonstrates how to create a full-stack web application with user authentication and real-time data handling.  
-**Tech Stack:**  
-- **Frontend:** React  
-- **Backend:** Spring Boot  
-- **Database:** SQL  
-- **Version Control:** Git  
-
-**Key Features:**  
-- **User Authentication & Authorization:** Secure login and registration.  
-- **Dynamic Product Listing & Filtering:** Users can view and filter products by category.  
-- **Secure Payment Gateway Integration:** Integrated with a payment system for order placement.  
-- **Order History & Tracking:** Allows users to view and track their previous orders.
-
-![E-Commerce Screenshot](link-to-screenshot)  
-
-[🔗 View Project](#)  
+I enjoy developing practical projects, exploring new technologies, and improving my understanding of software engineering through hands-on implementation.
 
 ---
 
-### 2. **Tic-Tac-Toe Game**
-A simple yet interactive two-player game built with a clean and intuitive UI. The goal of this project was to develop a responsive, real-time game where two players can compete.  
-**Tech Stack:**  
-- **Frontend:** Vanilla JavaScript, HTML, CSS  
-- **Version Control:** Git  
+## 🚀 Featured Projects
 
-**Key Features:**  
-- **Real-Time Game State Updates:** Players can see immediate updates as they make moves.  
-- **Winning Condition Detection:** Automatically detects and displays the winner.  
-- **Responsive Design:** The game adapts to different screen sizes for smooth gameplay on any device.
+### 1. Mini Instagram — Spring Boot Microservices
 
-![Tic-Tac-Toe Screenshot](link-to-screenshot)  
+**Full-Stack Social Media Application | Java 21 | Spring Boot | React**
 
-[🔗 View Project](#)
+An Instagram-inspired application built using a microservices architecture. It demonstrates backend engineering concepts such as secure authentication, distributed rate limiting, service-to-service communication, containerization, and application observability.
 
----
+**Tech Stack**
 
-## 🛠 Skills
+| Layer | Technologies |
+|---|---|
+| Backend | Java 21, Spring Boot, Spring Data JPA |
+| Microservices | Spring Cloud Gateway, REST APIs |
+| Frontend | React, TypeScript, Vite |
+| Authentication | Keycloak, OAuth 2.0, OpenID Connect, JWT |
+| Database | PostgreSQL, Flyway |
+| Rate Limiting | Redis |
+| Containerization | Docker, Docker Compose |
+| Monitoring | Grafana, Prometheus, Loki, Tempo, OpenTelemetry |
+| Build & Version Control | Maven, Git, GitHub |
 
-### Programming Languages:  
-- **Java**  
-- **JavaScript**  
-- **SQL**
+**Key Features**
 
-### Frameworks & Tools:  
-- **React**  
-- **Spring Boot**  
-- **Git**
+- **Microservices Architecture:** Separate User, Post, and Like services, with centralized API routing through Spring Cloud Gateway.
+- **Secure Authentication:** User registration and login using Keycloak, OAuth 2.0 Authorization Code Flow with PKCE, and JWT-based authorization.
+- **Post Management:** Create, view, edit, and delete posts with ownership validation.
+- **Like Management:** Like and unlike posts with duplicate-like prevention.
+- **Database per Service:** Independent PostgreSQL databases for service-specific data.
+- **Redis Rate Limiting:** Token Bucket algorithm to control incoming API requests and return HTTP 429 when rate limits are exceeded.
+- **Service-to-Service Communication:** Secured internal REST communication using OAuth 2.0 client credentials.
+- **Centralized Logging:** Structured JSON logs collected using Fluent Bit and Loki.
+- **Monitoring and Tracing:** Prometheus metrics, OpenTelemetry tracing, Tempo, and Grafana.
+- **Docker Deployment:** Containerized development environment using Docker Compose.
 
----
+**Local Testing Highlights**
 
-## 🌱 What I’m Learning  
-Currently, I’m exploring the following:  
-- Advanced concepts in **Spring Boot** (e.g., microservices, security, etc.)  
-- Frontend optimization techniques in **React** (e.g., React hooks, performance optimization)  
-- Building scalable web applications using **cloud technologies** (e.g., AWS, Docker)  
+- Successfully ran the backend services using Docker.
+- Tested registration and login with multiple Keycloak users.
+- Verified post creation and like/unlike functionality.
+- Tested API Gateway health and Redis rate limiting.
+- In a 100-request concurrent rate-limit test, 38 requests returned HTTP 200 and 62 returned HTTP 429, demonstrating that the configured limiter was enforcing its policy.
 
----
+**Project Status:** Working local development implementation, with further UI improvements and testing planned.
 
-## 🏆 Certifications & Achievements  
-- **Spring Boot Mastery:** Completed a comprehensive course on Spring Boot to gain hands-on experience with building scalable and secure web applications.  
-- **React Development:** Completed various challenges to master frontend technologies including React and Redux.  
-- **Database Design & Management:** Gained in-depth knowledge of database management systems and optimized queries for faster performance.
-
----
-
-## 📫 Get in Touch
-- **Email:** [alokkumarsahu@gmail.com](mailto:alokkumarsahu@gmail.com)  
-- **LinkedIn:** [Your LinkedIn Profile](#)  
-- **GitHub:** [github.com/yourusername](#)  
-
-Feel free to reach out for collaboration, suggestions, or just to say hi! 😊
+**[View Mini Instagram on GitHub](https://github.com/alok-commits/mini-instagram)**
 
 ---
 
-## About Me
-I am a highly motivated and passionate software developer with a keen interest in backend and frontend development. I enjoy solving real-world problems through clean and efficient code. I am constantly learning new technologies and strive to stay updated with the latest trends in software development. When I’m not coding, I enjoy watching movies, reading, and working on personal projects.
+### 2. E-Commerce Platform
+
+**Full-Stack Web Application | React | Spring Boot | SQL**
+
+An end-to-end e-commerce application designed to support online shopping, product browsing, cart management, and order processing.
+
+**Tech Stack**
+
+- **Frontend:** React
+- **Backend:** Java, Spring Boot
+- **Database:** SQL
+- **Version Control:** Git
+
+**Key Features**
+
+- User authentication and authorization
+- Dynamic product listing and category-based filtering
+- Shopping cart management
+- Product ordering and checkout workflow
+- Payment gateway integration
+- Order history and tracking
+
+This project helped strengthen my understanding of REST API integration, frontend-backend communication, relational databases, and full-stack application development.
 
 ---
 
+### 3. Tic-Tac-Toe Game
+
+**Interactive Browser Game | JavaScript | HTML | CSS**
+
+A two-player Tic-Tac-Toe game developed using Vanilla JavaScript, HTML, and CSS.
+
+The project focuses on JavaScript fundamentals, user interaction, game-state management, and responsive interface design.
+
+**Tech Stack**
+
+- JavaScript
+- HTML5
+- CSS3
+- Git
+
+**Key Features**
+
+- Interactive two-player gameplay
+- Immediate game-state updates
+- Winning-condition detection
+- Draw detection
+- Responsive user interface
+
+This project helped strengthen my JavaScript fundamentals, DOM manipulation skills, and understanding of application logic.
+
+---
+
+## 🛠️ Technical Skills
+
+### Programming Languages
+
+- Java
+- JavaScript
+- TypeScript
+- SQL
+
+### Backend Development
+
+- Spring Boot
+- Spring Framework
+- Spring Data JPA
+- Spring Security
+- RESTful APIs
+- Microservices Architecture
+- Spring Cloud Gateway
+- Hibernate
+- Maven
+
+### Frontend Development
+
+- React
+- HTML5
+- CSS3
+- Responsive Web Design
+- React Hooks
+
+### Databases and Caching
+
+- PostgreSQL
+- Relational Database Design
+- SQL Queries
+- Redis
+
+### Authentication and Security
+
+- Keycloak
+- OAuth 2.0
+- OpenID Connect
+- JWT Authentication
+- Role-Based Authorization
+- API Security
+
+### DevOps and Tools
+
+- Git and GitHub
+- Docker and Docker Compose
+- Postman
+- Visual Studio Code
+- IntelliJ IDEA
+- Grafana
+- Prometheus
+- Loki
+- OpenTelemetry
+
+---
+
+## 🏗️ Areas of Interest
+
+I'm particularly interested in:
+
+- Designing scalable Spring Boot backend applications
+- Building secure REST APIs and microservices
+- Improving database design and query performance
+- Understanding distributed systems
+- Implementing authentication and authorization
+- Monitoring application health and performance
+- Writing clean, maintainable, and testable Java code
+- Improving frontend user experiences with React
+
+---
+
+## 🌱 Currently Learning
+
+I'm continuously developing my skills in:
+
+- Advanced Spring Boot and Spring Security
+- Microservices design patterns and distributed systems
+- Java application performance optimization
+- React performance and reusable component design
+- Cloud deployment concepts, including AWS
+- Automated testing and CI/CD practices
+- Application monitoring, distributed tracing, and reliability
+
+My goal is to become a stronger software engineer capable of designing and delivering reliable, secure, and maintainable applications.
+
+---
+
+## 🎯 Development Approach
+
+When building applications, I focus on:
+
+- **Clean Code:** Readable, organized, and maintainable implementations.
+- **Separation of Concerns:** Clear responsibilities between controllers, services, repositories, and DTOs.
+- **Security:** Authentication, authorization, validation, and safe configuration management.
+- **Database Design:** Well-structured schemas, constraints, and efficient queries.
+- **Testing:** Verifying application behavior, handling errors, and preventing regressions.
+- **Observability:** Using logs, metrics, and traces to diagnose application issues.
+- **Continuous Improvement:** Refactoring code and improving existing implementations.
+
+---
+
+## 📫 Connect With Me
+
+- **GitHub:** [github.com/alok-commits](https://github.com/alok-commits)
+- **LinkedIn:** [Alok Kumar Sahu](https://www.linkedin.com/in/alok-kumar-sahu-jer/)
+- **Email:** [alokkumar.jer@gmail.com](mailto:alokkumar.jer@gmail.com)
+
+I'm interested in connecting with developers, exchanging technical knowledge, and collaborating on software development projects.
+
+---
+
+### Thanks for visiting my GitHub profile!
